@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="sale_order_status_inherited_view" model="ir.ui.view">
+		<field name="name">sale.order.status.inherited.view</field>
+		<field name="model">sale.order</field>
+		<field name="sequence" eval="1"/>
+		<field name="inherit_id" ref="sale.view_order_form"/>
+		<field name="priority">1000</field>
+		<field name="arch" type="xml">
+			<xpath expr="//header/button[@id='action_confirm']" position="replace">
+				<button name="action_confirm_sent" string="Confirm Budget" states="sent" type="object" class="oe_highlight"/>
+			</xpath>
+			<xpath expr="//header/button[@name='action_confirm']" position="replace">
+				<button name="action_confirm_draft" string="Confirm Budget" states="draft" type="object" class="oe_highlight"/>
+			</xpath>
+			<xpath expr="//button[@name='action_confirm_draft']" position="after">
+				<button name="confirm_draft" string="Commercially Approve" states="draft_ok" type="object" class="oe_highlight" groups="sale_order_status_approvals.commercial_approval_sale_orders_permits"/>
+			</xpath>
+			<xpath expr="//button[@name='confirm_draft']" position="after">
+				<button name="confirm_finan" string="Financially Approve" states="commercial_state" type="object" class="oe_highlight" groups="sale_order_status_approvals.financial_approval_sale_orders_permits"/>
+			</xpath>
+			<xpath expr="//button[@name='confirm_finan']" position="after">
+				<button name="confirm_sale_order" string="Create Sales Order" states="financial_state" type="object" class="oe_highlight" groups="sale_order_status_approvals.creation_sale_orders_permits"/>
+			</xpath>
+			<xpath expr="//button[@name='%(sale.action_view_sale_advance_payment_inv)d']" position="replace">
+                <button name="%(sale.action_view_sale_advance_payment_inv)d" string="Create Invoice" type="action" class="btn-primary" attrs="{'invisible': [('invoice_status', '!=', 'to invoice')]}" groups="sale_order_status_approvals.generation_sales_invoices_permits"/>
+                <button name="%(sale.action_view_sale_advance_payment_inv)d" string="Create Invoice" type="action" context="{'default_advance_payment_method': 'percentage'}" attrs="{'invisible': ['|',('invoice_status', '!=', 'no'), ('state', '!=', 'sale')]}" groups="sale_order_status_approvals.generation_sales_invoices_permits"/>
+            </xpath>
+			<xpath expr="//header/field[@name='state']" position="attributes">
+				<attribute name="statusbar_visible">draft,sent,draft_ok,commercial_state,financial_state,sale,invoiced</attribute>
+            </xpath>
+		</field>
+	</record>
+</odoo>

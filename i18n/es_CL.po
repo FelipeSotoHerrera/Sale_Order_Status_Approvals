@@ -1,0 +1,553 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_order_status_approvals
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20191113\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-23 19:03+0000\n"
+"PO-Revision-Date: 2020-06-23 15:18-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_CL\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_administrators_notifications_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_commercial_approval_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_creation_sale_orders_permits_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_financial_approval_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_generation_sales_invoices_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_sellers_notifications_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_validated_sales_invoices_view
+msgid "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+msgstr "<span class=\"fa fa-lg fa-building-o\" title=\"Los valores establecidos aquí son específicos de la compañía.\" groups=\"base.group_multi_company\"/>"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_administrators_notifications
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_administrators_notifications_view
+msgid "Administrators Notifications"
+msgstr "Notificaciones para Administradores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_administrators_notifications
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_administrators_notifications
+msgid "Administrators Notifications *"
+msgstr "Notificaciones para Administradores *"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_make_invoice_advance.py:46
+#, python-format
+msgid "Advance: %s"
+msgstr "Avanzar: %s"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_generation_sales_invoices
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_generation_sales_invoices
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_generation_sales_invoices
+msgid "Allows notification of the sales order status to be invoiced when generating the sales invoice draft"
+msgstr "Permite la notificación del estado del pedido de ventas que se facturará al generar el borrador de la factura de ventas"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_validation_sales_invoices
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_validation_sales_invoices
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_validation_sales_invoices
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_validated_sales_invoices_view
+msgid "Allows the validation of the draft sales invoice to notify that it has been validated"
+msgstr "Permite la validación del borrador de la factura de ventas para notificar que ha sido validado"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,commercial_approval:0
+msgid "Commercial Approval for Disabled Sales Order"
+msgstr "Desactivada Aprobación Comercial para Pedido de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_commercial_approval_view
+msgid "Commercial Approval for the Sales Order"
+msgstr "Aprobación comercial para el Pedido de Venta"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,commercial_approval:0
+msgid "Commercial Approval for the Sales Order Enabled"
+msgstr "Aprobación comercial para la Pedido de Venta habilitada"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.commercial_approval_sale_orders_permits
+msgid "Commercial Approval of Sales Order"
+msgstr "Aprobación comercial del Pedido de venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.sale_order_status_inherited_view
+msgid "Commercially Approve"
+msgstr "Aprobado Comercialmente"
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.sale_order_status_inherited_view
+msgid "Confirm Budget"
+msgstr "Confirmar Presupuesto"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.sale_order_status_inherited_view
+msgid "Create Invoice"
+msgstr "Crear Factura"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.sale_order_status_inherited_view
+msgid "Create Sales Order"
+msgstr "Crear Pedido de Ventas"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_creation_sale_orders_permits_view
+msgid "Creation Sale Orders Permits"
+msgstr "Permiso de Creación de Pedido de Venta"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.creation_sale_orders_permits
+msgid "Creation of Sales Orders"
+msgstr "Creación de Pedidos de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_permits_currency_id
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_permits_currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: sale_order_status_approvals
+#: model:hr.job,name:sale_order_status_approvals.job_delivery_salesman
+msgid "Delivery Salesman"
+msgstr "Vendedor Delivery"
+
+#. module: sale_order_status_approvals
+#: model:hr.department,name:sale_order_status_approvals.dep_delivery_sales
+msgid "Delivery Sales"
+msgstr "Ventas Delivery"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:463
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:872
+#, python-format
+msgid "El monto total del pedido de venta es inferior al permitido, mínimo: "
+msgstr "El monto total del pedido de venta es inferior al permitido, mínimo: "
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:250
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:455
+#, python-format
+msgid "El usuario: , no tiene habilitado las notificaciones para vendedores."
+msgstr "El usuario: , no tiene habilitadas las notificaciones para vendedores."
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.sellers_notifications_sale_orders_permits
+msgid "Email Notifications for Sellers"
+msgstr "Notificaciones por Correo para Vendedores"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.administrator_notifications_sales_orders_permits
+msgid "Email notifications for administrators"
+msgstr "Notificaciones por Correo para Administradores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_administrators_notifications
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_administrators_notifications
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_administrators_notifications
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_administrators_notifications_view
+msgid "Enable budget status notifications via mail for Administrators"
+msgstr "Habilitar notificaciones de estado de presupuesto por correo para Administradores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_sellers_notifications
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_sellers_notifications
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_sellers_notifications
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_sellers_notifications_view
+msgid "Enable budget status notifications via mail for sellers"
+msgstr "Habilitar notificaciones de estado de presupuesto por correo para vendedores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_commercial_approval
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_commercial_approval
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_commercial_approval
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_commercial_approval_view
+msgid "Enables the commercial approval status to limit and review the sales order confirmation process"
+msgstr "Permite que el estado aprobación comercial limite y revise el proceso de confirmación del pedido de venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_creation_sale_orders_permits
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_creation_sale_orders_permits
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_creation_sale_orders_permits
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_creation_sale_orders_permits_view
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_generation_sales_invoices_view
+msgid "Enables the creation sale orders status to limit and review the sales order confirmation process"
+msgstr "Permite que el estado creación de pedidos de venta limite y revise el proceso de confirmación de estos mismos"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_financial_approval
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_financial_approval
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_financial_approval
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_financial_approval_view
+msgid "Enables the financial approval status to limit and review the sales order confirmation process"
+msgstr "Permite que el estado aprobación financiera limite y revise el proceso de confirmación del pedido de venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_permits_currency_id
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_permits_currency_id
+msgid "Field created to index the minimum amount of currency for commercial approval"
+msgstr "Campo creado para indexar la cantidad mínima de moneda para la aprobación comercial"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,financial_approval:0
+msgid "Financial Approval for Disabled Sales Order"
+msgstr "Aprobacion Financiera deshabilitada para Pedidos de venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_financial_approval_view
+msgid "Financial Approval for the Sales Order"
+msgstr "Aprobación Financiera para el Pedido de Venta"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,financial_approval:0
+msgid "Financial Approval for the Sales Order Enabled"
+msgstr "Aprobación Financiera para el Pedido de Venta habilitado"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.sale_order_status_inherited_view
+msgid "Financially Approve"
+msgstr "Aprobado Financieramente"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_generation_sales_invoices_view
+msgid "Generation Sales Invoices Permits"
+msgstr "Permisos de Generación de Facturas de Ventas"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.generation_sales_invoices_permits
+msgid "Generation of Sales Invoices"
+msgstr "Generación de Facturas de Ventas"
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_sale_advance_payment_inv
+msgid "Inherited Invoice Creation Wizard with reference to sale order"
+msgstr "Asistente de creación de facturas con referencia a la orden de venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_account_invoice_validated.py:36
+#, python-format
+msgid "Invoice must be in draft state in order to validate it."
+msgstr "La factura debe estar en estado de borrador para validarla."
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_users_mail_administrators_notifications
+msgid "Mail Administrators Notifications"
+msgstr "Notificaciones para administradores por correo"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_users_mail_commercial_notifications
+msgid "Mail Commercial Notifications"
+msgstr "Notificaciones de Aprobación Comercial por Correo"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_commercial_approval_amount
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_commercial_approval_amount
+msgid "Minimum Amount"
+msgstr "Importe mínimo"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_konos_base_config_settings_commercial_approval_amount
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_company_commercial_approval_amount
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_config_settings_commercial_approval_amount
+msgid "Minimum quantity from which commercial approval is required"
+msgstr "Cantidad mínima desde la cual se requiere aprobación comercial"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_users_names_administrators_notifications
+msgid "Name Administrators Notifications"
+msgstr "Nombre de Administradores en las Notificaciones"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_users_names_commercial_notifications
+msgid "Name Commercial Notifications"
+msgstr "Nombre de los Administradores en el grupo de Aprobación Comercial"
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_sale_order
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.financial_approval_sale_orders_permits
+msgid "Sales Order Financial Approval"
+msgstr "Aprobación Financiera de Pedido de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_sellers_notifications
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_sellers_notifications_view
+msgid "Sellers Notifications"
+msgstr "Notificaciones de Vendedores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_sellers_notifications
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_sellers_notifications
+msgid "Sellers Notifications *"
+msgstr "Notificaciones de Vendedores *"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,administrators_notifications:0
+msgid "Status notifications for administrators are triggered"
+msgstr "Se activan notificaciones de estado para administradores"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,administrators_notifications:0
+msgid "Status notifications for administrators disabled"
+msgstr "Notificaciones de estado para administradores deshabilitadas"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,sellers_notifications:0
+msgid "Status notifications for sellers are triggered"
+msgstr "Se activan las notificaciones de estado para los vendedores."
+
+#. module: sale_order_status_approvals
+#: selection:res.company,sellers_notifications:0
+msgid "Status notifications for vendors disabled"
+msgstr "Notificaciones de estado para vendedores deshabilitadas"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_make_invoice_advance.py:38
+#, python-format
+msgid "The product used to invoice a down payment should be of type 'Service'. Please use another product or update this product."
+msgstr "El producto utilizado para facturar un anticipo debe ser del tipo 'Servicio'. Utilice otro producto o actualice este producto."
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_make_invoice_advance.py:36
+#, python-format
+msgid "The product used to invoice a down payment should have an invoice policy set to \"Ordered quantities\". Please update your deposit product to be able to create a deposit invoice."
+msgstr "El producto utilizado para facturar un anticipo debe tener una política de facturación establecida en  \"Cantidades pedidas \". Actualice su producto de depósito para poder crear una factura de depósito."
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:465
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:874
+#, python-format
+msgid "The total amount of the sales order is less than allowed, minimum: "
+msgstr "El monto total del pedido de venta es inferior al permitido, mínimo: "
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:252
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:457
+#, python-format
+msgid "The user: , you don t have vendor notifications enabled."
+msgstr "El usuario: , no tiene habilitadas las notificaciones para vendedores."
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:1554
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:1559
+#, python-format
+msgid "There is no invoiceable line."
+msgstr "No hay línea facturable."
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.inherit_account_invoice_validate
+msgid "Validate"
+msgstr "Validar"
+
+#. module: sale_order_status_approvals
+#: model:ir.ui.view,arch_db:sale_order_status_approvals.res_config_validated_sales_invoices_view
+msgid "Validated Sales Invoices Permits"
+msgstr "Permisos para Validar Facturas de Venta"
+
+#. module: sale_order_status_approvals
+#: model:res.groups,name:sale_order_status_approvals.validation_sales_invoices_permits
+msgid "Validation of Sales Invoices"
+msgstr "Validación de Facturas de Ventas"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_res_user.py:65
+#, python-format
+msgid "You cannot deactivate the admin user."
+msgstr "No puede desactivar el usuario administrador."
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_res_user.py:67
+#, python-format
+msgid "You cannot deactivate the user you're currently logged in as."
+msgstr "No puede desactivar el usuario con el que está conectado actualmente."
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_account_invoice_validated.py:38
+#, python-format
+msgid "You cannot validate an invoice with a negative total amount. You should create a credit note instead."
+msgstr "No puede validar una factura con un monto total negativo. En su lugar, debe crear una nota de crédito."
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_administrators_notifications_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_administrators_notifications_verify
+msgid "administrators notifications"
+msgstr "Notificaciones para administradores"
+
+#. module: sale_order_status_approvals
+#: code:addons/sale_order_status_approvals/models/inherit_sale_make_invoice_advance.py:60
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:39
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:478
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:887
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:1049
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:1208
+#: code:addons/sale_order_status_approvals/models/inherit_sale_order.py:1402
+#, python-format
+msgid "at least one state must be enabled"
+msgstr "al menos un estado debe estar habilitado"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_commercial_approval_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_commercial_approval
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_commercial_approval_verify
+msgid "commercial approval"
+msgstr "aprobación comercial"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_commercial_approval
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_commercial_approval
+msgid "commercial approval *"
+msgstr "aprobación comercial *"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_commercial_approval_amount
+msgid "commercial approval validation Amount"
+msgstr "Monto de Validación para aprobación comercial"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_creation_sale_orders_permits_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_creation_sale_orders_permits
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_creation_sale_orders_permits_verify
+msgid "creation sale orders permits"
+msgstr "Permiso de Creación de Pedidos de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_creation_sale_orders_permits
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_creation_sale_orders_permits
+msgid "creation sale orders permits *"
+msgstr "Permiso de Creación de Pedidos de Venta *"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,creation_sale_orders_permits:0
+msgid "creation sale orders permits for Disabled Sales Order"
+msgstr "Permiso de creación de Pedidos de Venta deshabilitado"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,creation_sale_orders_permits:0
+msgid "creation sale orders permits for the Sales Order Enabled"
+msgstr "Permiso de creación de Pedidos de Venta habilitado"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_financial_approval_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_financial_approval
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_financial_approval_verify
+msgid "financial approval"
+msgstr "Aprobación Financiera"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_financial_approval
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_financial_approval
+msgid "financial approval *"
+msgstr "Aprobación Financiera *"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_generation_sales_invoices_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_generation_sales_invoices_verify
+msgid "generation sales invoices"
+msgstr "Generación de Facturas de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_generation_sales_invoices
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_generation_sales_invoices
+msgid "generation sales invoices *"
+msgstr "Generación de Facturas de Venta *"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_generation_sales_invoices
+msgid "generation sales invoices permits"
+msgstr "Permisos de generación de Facturas de Venta"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,generation_sales_invoices:0
+msgid "generation sales invoices permits for Disabled Sales Order"
+msgstr "permiso de Generación de facturas de venta deshabilitado"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,generation_sales_invoices:0
+msgid "generation sales invoices permits for the Sales Order Enabled"
+msgstr "permiso de Generación de facturas de venta habilitado"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_users_mail_commercial_notifications
+msgid "mailing list for notification of Commercial Aprove."
+msgstr "lista de correo para notificación de aprobación comercial."
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_users_mail_administrators_notifications
+msgid "mailing list for notification of administrators."
+msgstr "lista de correo para notificación de administradores."
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_users_names_commercial_notifications
+msgid "names list for notification of Commercial Aprove."
+msgstr "lista de nombres para notificación de Aprobación Comercial."
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,help:sale_order_status_approvals.field_res_users_names_administrators_notifications
+msgid "names list for notification of administrators."
+msgstr "lista de nombres para notificación de administradores."
+
+#. module: sale_order_status_approvals
+#: model:ir.model,name:sale_order_status_approvals.model_res_config_settings
+msgid "res.config.settings"
+msgstr "res.config.settings"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_sellers_notifications_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_sellers_notifications_verify
+msgid "sellers notifications"
+msgstr "Notificaciones de Vendedores"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_validation_sales_invoices_verify
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_validation_sales_invoices_verify
+msgid "validation sales invoices"
+msgstr "Validación de Facturas de Venta"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_konos_base_config_settings_validation_sales_invoices
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_config_settings_validation_sales_invoices
+msgid "validation sales invoices *"
+msgstr "Validación de Facturas de Venta *"
+
+#. module: sale_order_status_approvals
+#: model:ir.model.fields,field_description:sale_order_status_approvals.field_res_company_validation_sales_invoices
+msgid "validation sales invoices permits"
+msgstr "Permisos para la Validación de Facturas de Venta"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,validation_sales_invoices:0
+msgid "validation sales invoices permits for Disabled Sales Order"
+msgstr "permisos de validación de facturas de venta para pedido de cliente deshabilitado"
+
+#. module: sale_order_status_approvals
+#: selection:res.company,validation_sales_invoices:0
+msgid "validation sales invoices permits for the Sales Order Enabled"
+msgstr "permisos de validación de facturas de ventas para el pedido de ventas habilitado"

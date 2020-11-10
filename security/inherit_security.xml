@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sellers_notifications_sale_orders_permits" model="res.groups">
+        <field name="name">Email Notifications for Sellers</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="commercial_approval_sale_orders_permits" model="res.groups">
+        <field name="name">Commercial Approval of Sales Order</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="financial_approval_sale_orders_permits" model="res.groups">
+        <field name="name">Sales Order Financial Approval</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="creation_sale_orders_permits" model="res.groups">
+        <field name="name">Creation of Sales Orders</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="generation_sales_invoices_permits" model="res.groups">
+        <field name="name">Generation of Sales Invoices</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="administrator_notifications_sales_orders_permits" model="res.groups">
+        <field name="name">Email notifications for administrators</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+    <record id="validation_sales_invoices_permits" model="res.groups">
+        <field name="name">Validation of Sales Invoices</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+    </record>
+</odoo>
