@@ -1,0 +1,19 @@
+12.0.0.1
+
+--> Initial commit of my first own module odoo 12.
+
+11.0.0.2
+
+-> Modification in translation file, dependency was added to hr in manifest, icon and module description folder plus images were added.
+
+12.0.0.3
+
+--> Index File cleanup in description....
+
+12.0.0.4
+
+--> Module folder restructuring.....
+
+12.0.0.5
+
+--> Added license and reading files, more modifying version of the module.
