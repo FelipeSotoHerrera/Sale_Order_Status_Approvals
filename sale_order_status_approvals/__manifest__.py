@@ -18,7 +18,7 @@
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Generic Modules/Sales Management',
-    'version': '1.6',
+    'version': '0.9',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'sale_management', 'sale', 'account', 'hr'],
@@ -47,4 +47,34 @@
     'auto_install': False,
     'price':35.0,
     'currency':'EUR',
+    "images":['static/description/Banner.png'],
 }
+
+#### HISTORY ####
+
+# VERSION - 0.0.9 [2020-11-18]
+# Modification in manifest added line to raise banner, update of records and version.
+
+# VERSION - 0.0.8 [2020-11-18]
+# Icon change and banner added for Odoo Apps Store.
+
+# VERSION - 0.0.7 [2020-11-18]
+# extra line removal in index.
+
+# VERSION - 0.0.6 [2020-11-17]
+# Description Index modification, to improve image visualization.
+
+# VERSION - 0.0.5 [2020-11-16]
+# Added license and reading files, more modifying version of the module.
+
+# VERSION - 0.0.4 [2020-11-16]
+# Module folder restructuring.
+
+# VERSION - 0.0.3 [2020-11-15]
+# Index File cleanup in description.
+
+# VERSION - 0.0.2 [2020-11-14]
+# Modification in translation file, dependency was added to hr in manifest, icon and module description folder plus images were added.
+
+# VERSION - 0.0.1 [2020-11-09]
+# Initial release
