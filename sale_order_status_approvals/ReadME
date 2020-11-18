@@ -25,3 +25,11 @@
 12.0.0.7
 
 --> extra line removal in index.
+
+12.0.0.8
+
+--> Icon change and banner added for Odoo Apps Store.
+
+12.0.0.9
+
+--> Modification in manifest added line to raise banner, update of records and version.
