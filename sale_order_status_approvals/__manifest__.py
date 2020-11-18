@@ -18,7 +18,7 @@
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Generic Modules/Sales Management',
-    'version': '0.5',
+    'version': '0.7',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'sale_management', 'sale', 'account', 'hr'],
@@ -50,6 +50,12 @@
 }
 
 #### HISTORY ####
+
+# VERSION - 0.0.7 [2020-11-18]
+# extra line removal in index.
+
+# VERSION - 0.0.6 [2020-11-17]
+# Description Index modification, to improve image visualization.
 
 # VERSION - 0.0.5 [2020-11-16]
 # Added license and reading files, more modifying version of the module.
