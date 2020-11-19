@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Purchase Order Status Approvals",
+    'name': "Sale Order Status Approvals",
 
     'summary': 'This Module adds new statuses to the sales order, each one with its approval validation',
 
@@ -18,7 +18,7 @@
     # Check https://github.com/odoo/odoo/blob/11.0/odoo/addons/base/module/module_data.xml
     # for the full list
     'category': 'Generic Modules/Sales Management',
-    'version': '0.9',
+    'version': '1.0',
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'sale_management', 'sale', 'account', 'hr'],
@@ -46,11 +46,14 @@
     'application': True,
     'auto_install': False,
     'price':35.0,
-    'currency':'EUR',
-    "images":['static/description/Banner.png'],
+    'currency': 'EUR',
+    "images": ['static/description/Banner.png'],
 }
 
 #### HISTORY ####
+
+# VERSION - 0.1.0 [2020-11-19]
+# Description Index modification, icon and banner images modified.
 
 # VERSION - 0.0.9 [2020-11-18]
 # Modification in manifest added line to raise banner, update of records and version.
