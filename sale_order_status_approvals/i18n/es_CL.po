@@ -604,3 +604,8 @@ msgstr "permisos de validación de facturas de venta para pedido de cliente desh
 #: selection:res.company,validation_sales_invoices:0
 msgid "validation sales invoices permits for the Sales Order Enabled"
 msgstr "permisos de validación de facturas de ventas para el pedido de ventas habilitado"
+
+#. module: sale_order_status_approvals
+#: model:hr.job,name:hr.job_salesman
+msgid "Sales Executive"
+msgstr "Ejecutivo de Ventas"
